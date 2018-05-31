@@ -1,12 +1,15 @@
 {
-  "name": "typed-events",
-  "version": "0.1.0",
+  "name": "eventsts",
+  "version": "0.1.1",
   "description": "Simple typed event emitter",
-  "main": "dist/events.js",
-  "types": "dist/events.d.ts",
+  "main": "./dist/events.js",
+  "types": "./dist/events.d.ts",
   "author": "Matt Haggard <haggardii@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "prepare": "tsc"
+  },
   "devDependencies": {
     "typescript": "^2.9.1"
   }
