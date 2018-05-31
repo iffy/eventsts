@@ -1,5 +1,5 @@
 {
-  "name": "tsevents",
+  "name": "typed-events",
   "version": "0.1.0",
   "description": "Simple typed event emitter",
   "main": "dist/events.js",
